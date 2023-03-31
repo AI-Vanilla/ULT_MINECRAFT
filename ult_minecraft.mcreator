@@ -1,0 +1,57 @@
+{
+  "mod_elements": [
+    {
+      "name": "CopperIronGeneration",
+      "type": "recipe",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_iron_generation",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ult_minecraft/recipes/copper_iron_generation.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperIronGeneration2",
+      "type": "recipe",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_iron_generation_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ult_minecraft/recipes/copper_iron_generation_2.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {}
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "ult_minecraft",
+    "modName": "ULT_MINECRAFT",
+    "version": "1.0.0",
+    "author": "AI_Vanilla, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.19.2",
+    "modElementsPackage": "net.mcreator.ultminecraft",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}

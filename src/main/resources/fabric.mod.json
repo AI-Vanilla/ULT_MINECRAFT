@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "ult_minecraft",
+  "version": "1.0.0",
+  "name": "ULT_MINECRAFT",
+  "authors": [
+    "AI_Vanilla, MCreator"
+  ],
+  "contact": {
+    "homepage": "https://mcreator.net",
+    "sources": ""
+  },
+  "license": "Academic Free License v3.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.mcreator.ultminecraft.UltMinecraftMod"
+    ],
+    "client": [
+      "net.mcreator.ultminecraft.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  }
+}

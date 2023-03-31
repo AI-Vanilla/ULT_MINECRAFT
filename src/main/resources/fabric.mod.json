@@ -4,13 +4,13 @@
   "version": "1.0.0",
   "name": "ULT_MINECRAFT",
   "authors": [
-    "AI_Vanilla, MCreator"
+    "AI_Vanilla"
   ],
   "contact": {
-    "homepage": "https://mcreator.net",
+    "homepage": "https://github.com/AI-Vanilla/ULT_MINECRAFT",
     "sources": ""
   },
-  "license": "Academic Free License v3.0",
+  "license": "MIT License",
   "environment": "*",
   "entrypoints": {
     "main": [

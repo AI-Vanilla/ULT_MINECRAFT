@@ -1,9 +1,9 @@
 {
   "type": "minecraft:smelting",
-  "experience": 1,
-  "cookingtime": 5,
+  "experience": 20,
+  "cookingtime": 3,
   "ingredient": {
-    "item": "minecraft:raw_copper"
+    "item": "ult_minecraft:cuprous_copper"
   },
   "result": "minecraft:iron_ingot"
 }

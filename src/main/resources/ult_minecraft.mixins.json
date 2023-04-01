@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.mcreator.ultminecraft.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+	"UltMinecraftModRepairItemRecipeMixin"  ],
+  "injectors": {
+	"defaultRequire": 1
+  }
+}

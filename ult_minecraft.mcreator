@@ -1,6 +1,32 @@
 {
   "mod_elements": [
     {
+      "name": "CopperIronGeneration2",
+      "type": "recipe",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_iron_generation_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ult_minecraft/recipes/copper_iron_generation_2.json"
+        ]
+      }
+    },
+    {
+      "name": "CuprousCopper",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cuprous_copper",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ultminecraft/item/CuprousCopperItem.java",
+          "src/main/resources/assets/ult_minecraft/models/item/cuprous_copper.json"
+        ]
+      }
+    },
+    {
       "name": "CopperIronGeneration",
       "type": "recipe",
       "sortid": 2,
@@ -14,15 +40,15 @@
       }
     },
     {
-      "name": "CopperIronGeneration2",
+      "name": "CopperDisintegration",
       "type": "recipe",
-      "sortid": 1,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "copper_iron_generation_2",
+      "registry_name": "copper_disintegration",
       "metadata": {
         "files": [
-          "src/main/resources/data/ult_minecraft/recipes/copper_iron_generation_2.json"
+          "src/main/resources/data/ult_minecraft/recipes/copper_disintegration.json"
         ]
       }
     }
@@ -30,7 +56,12 @@
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.ult_minecraft.cuprous_copper": "Cuprous Copper"
+    },
+    "ja_jp": {
+      "item.ult_minecraft.cuprous_copper": "崩壊化した銅"
+    }
   },
   "foldersRoot": {
     "name": "~",

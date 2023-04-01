@@ -3,18 +3,18 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Smelting",
-    "xpReward": 20.0,
+    "xpReward": 5.0,
     "cookingTime": 3,
     "recipeRetstackSize": 1,
     "group": "",
     "recipeShapeless": false,
     "smeltingInputStack": {
-      "value": "CUSTOM:CuprousCopper"
+      "value": "Items.RAW_COPPER"
     },
     "smeltingReturnStack": {
-      "value": "Items.IRON_INGOT"
+      "value": "CUSTOM:CuprousCopper"
     },
-    "name": "copper_iron_generation",
+    "name": "copper_disintegration",
     "namespace": "mod"
   }
 }

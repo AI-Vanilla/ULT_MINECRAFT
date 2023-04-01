@@ -15,6 +15,8 @@ package net.mcreator.ultminecraft;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
+import net.mcreator.ultminecraft.init.UltMinecraftModItems;
+
 import net.fabricmc.api.ModInitializer;
 
 public class UltMinecraftMod implements ModInitializer {
@@ -24,6 +26,8 @@ public class UltMinecraftMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Initializing UltMinecraftMod");
+
+		UltMinecraftModItems.load();
 
 	}
 }

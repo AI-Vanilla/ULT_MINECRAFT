@@ -1,9 +1,15 @@
 {
-  "type": "minecraft:smelting",
-  "experience": 5,
-  "cookingtime": 3,
-  "ingredient": {
-    "item": "minecraft:raw_copper"
-  },
-  "result": "ult_minecraft:cuprous_copper"
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:netherrack"
+    },
+    {
+      "item": "minecraft:raw_copper"
+    }
+  ],
+  "result": {
+    "item": "ult_minecraft:cuprous_copper",
+    "count": 1
+  }
 }
